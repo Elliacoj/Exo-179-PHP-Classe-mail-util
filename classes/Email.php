@@ -33,7 +33,7 @@ class Email
     /**
      * @param string $to
      */
-    public function setTo($to)
+    public function setTo(string $to)
     {
         $this->to = $to;
     }
@@ -49,7 +49,7 @@ class Email
     /**
      * @param string $from
      */
-    public function setFrom($from)
+    public function setFrom(string $from)
     {
         $this->from = $from;
     }
@@ -65,7 +65,7 @@ class Email
     /**
      * @param string $message
      */
-    public function setMessage($message)
+    public function setMessage(string $message)
     {
         $this->message = $message;
     }
@@ -81,7 +81,7 @@ class Email
     /**
      * @param string $subject
      */
-    public function setSubject($subject)
+    public function setSubject(string $subject)
     {
         $this->subject = $subject;
     }
